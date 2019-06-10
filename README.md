@@ -1,7 +1,6 @@
 # Mutual-Funds
-Machine Learning Project to identify Top Mutual Funds
 
-The objective of this project will be to extract latest data on Indian Mutual Funds from public sources for analysis and recommend top 5 funds as good investment options in different categories for further detailed analysis. As part of this I will also explore how different factors influence the performance for different investment horizons. 
+The objective of this project is to extract latest data on Indian Mutual Funds from public sources for analysis and recommend top 5 funds as good investment options in different categories for further detailed analysis. As part of this I  also explore how different factors influence the performance for different investment horizons. 
 
 ## Motivation
 
@@ -13,6 +12,11 @@ This project was taken up as part of UDACITY Data Science Nano Degree program Ca
 
 ## Detailed Blog
 There is a detailed blog with a walk through of the project available at - https://medium.com/@sunilthakur_67045/which-mutual-fund-87935649f1d5 
+
+
+## Source Code and Data File
+The Source Code for the project is available as MutualFunds.ipynb in this Git. The data is collected at run time from MoneyControl.com.
+To Run this project you would need Python 3.xx 
 
 
 
