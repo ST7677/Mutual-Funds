@@ -43,8 +43,6 @@ I achieved following classification accuracy scores for different time horizons
 3 year : 93%, 
 5 year : 93%
 
-But this is primarily due to class imbalance problem, i.e. if the model marks everything as 0 (not good fund) then also it will get very good accuracy. I can observe this by calculating precision and recall and plotting RoC curve (Receiver Operating Characteristics). This problem may be solved by either increasing number of good samples (by duplicating the good fund records or by reducing the number of bad funds (not recommended here).
-
 Finally the model recommends a shortlist of top 5 funds across different time horizons, for user to analyze the same in detail for investment.
 
 ## Future Improvements
