@@ -19,28 +19,28 @@ The Source Code for the project is available as MutualFunds.ipynb in this Git. T
 To Run this project you would need Python 3.xx 
 
 ## Python Libraries used
-numpy
-pandas
-matplotlib
-seaborn
-sklearn
-RandomForestClassifier from sklearn.ensemble
-csv
-BeautifulSoup from bs4
-requests
-sys
+numpy,
+pandas,
+matplotlib,
+seaborn,
+sklearn,
+RandomForestClassifier from sklearn.ensemble,
+csv,
+BeautifulSoup from bs4,
+requests,
+sys,
 re
 
 ## Results Analysis
 I generated feature importance charts from random forest classification to visualize about the features that are important predictors in each of the time horizons, and as expected CRISIL rating is one of the most dominating features across different time horizons.
 
 I achieved following classification accuracy scores for different time horizons
-1 month : 93%
-3 months : 93%
-6 months : 94%
-1 year : 94%
-2 year : 94%
-3 year : 93%
+1 month : 93%, 
+3 months : 93%, 
+6 months : 94%, 
+1 year : 94%, 
+2 year : 94%, 
+3 year : 93%, 
 5 year : 93%
 
 But this is primarily due to class imbalance problem, i.e. if the model marks everything as 0 (not good fund) then also it will get very good accuracy. I can observe this by calculating precision and recall and plotting RoC curve (Receiver Operating Characteristics). This problem may be solved by either increasing number of good samples (by duplicating the good fund records or by reducing the number of bad funds (not recommended here).
